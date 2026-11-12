@@ -1,7 +1,4 @@
-# Configuração do Netlify: site estático, sem etapa de build.
-[build]
-  publish = "."
-  command = ""
+# Site estático: o Netlify publica a pasta principal do repositório, sem etapa de build.
 
 # O arquivo do app (service worker) não deve ficar guardado em cache, para as atualizações chegarem logo.
 [[headers]]
